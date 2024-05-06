@@ -2,7 +2,7 @@ class User:
     def __init__(self, user_id, pin):
         self.user_id = user_id
         self.pin = pin
-        self.balance = 5000
+        self.balance = 0
         self.transaction_history = []
 
     def deposit(self, amount):
